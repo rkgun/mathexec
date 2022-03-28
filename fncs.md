@@ -1,0 +1,68 @@
+-e,pi numbers
+-Standart algebra (+,-,*,/,(),^)
+-min(3,5,4,8,9)
+-max(3,5,4,8,9)
+-derivative('x^2 + x', 'x') ...etc
+-sin(45 deg) ...etc
+-abs(-3)
+-deg-rad => degree to radian / radian to degree conversation or trig functions
+-bool algebra (>,==,<,>=,<=)  like 3<5=>true ...etc
+-sign(a) a in reel number if a>0 return 1 else if a<0 return -1 else a=0 return 0
+-log(x, base) like log(2,4) => return 2
+-pow(a,b) like 2^3 => return 8 
+-sqrt(a) return square root
+-exp(a) like e^a or pow(e,a)
+-random(not value)=> return random number
+-ceil()
+-floor()
+-round()
+-a cm to inch
+-complex numbers
+-det()
+-arg(z) return complex z number argüment
+-Note: Complex number is i not j
+-eval('x^a', {x:3, a:2})
+-median(1,3,5,7,21,8,9,12) return number list median
+-range(a, b) create array one dimensional range(1, 4)=[1,2,3,4]
+-ones(3) Creates a 3D vector with the value 1
+-For new row in matrices; Use to separate elements, like:
+-[1,1,1;2,2,2;3,3,3] => 3 dimensional array row 1: [1,1,1] row 2: [2,2,2] row 3:[3,3,3]
+-There are units such as liters, meters, feet, cubic meters.
+-Factorial calculation like 3! => return 6
+-a:b creates a vector stretching from a to b, same function as range command
+-x ? y : z
+-if(x){y}else{z} 
+-and,not,or,xor there are logic operators
+-The transpose matrix is ​​represented by [X]'
+-mod or % symbols module calc
+-./ expr element wise divise 
+-.* expr element wise multiply
+-f(a,b)=a+b;a=2;b=3;f(a,b) expression ; separated by a separator. Produces a result equivalent to f(2,3)
+-gamma(n) Calculates the n. value of the gamma function
+-x=usolve(U, b)
+-Solves the linear system with the upper triangular matrix U[n*n] and the column vector b[n] in the form U * x = b.
+-slu(A, order, threshold)
+-Calculate Matrix LU decomposition with full pivot. Matrix A is decomposed into two matrices (L, U) and two permutation vectors (pinv, q), where P * A * Q = L * U
+-rationalize("2x/y - y/(x+1)")
+-Convert a rational expression into a rational fraction. If the rational fraction is a variable polynomial, 
+-it converts the numerator and denominator in canonical form, with decreasing exponents, and returns the numerator coefficients.
+-lup([[2, 1], [1, 4]])
+-Calculate Matrix LU decomposition with partial pivot. Matrix A is decomposed into three matrices (L, U, P) with P * A = L * U.
+-lsolve([-2, 3; 2, 1],[11,9])
+-Solves the linear system L*x=b; where L is a [n x n] subtriangular matrix and b is a column vector [n].
+-tau is a fixed value. 2*pi
+-phi is a fixed value. represents the golden ratio.
+-i is a fixed value. represents root -1.
+-sparse() Creates or adds a sparse matrix
+-fraction(0.125) Create a fraction from a number or the numerator and denominator.
+-dotPow(x, y) It is a function that represents x.^y.
+-variance() calculate variance
+-variance(2, 4, 6)', 'variance([2, 4, 6, 8])', 'variance([2, 4, 6, 8], "uncorrected")', 'variance([2, 4, 6, 8], "biased")', 'variance([1, 2, 3; 4, 5, 6])
+-column(x, index)
+-Bir matristen veya diziden sütun döndürme.
+-row(x, index)
+-Bir matristen veya diziden satır döndürme.
+-deepEqual(x, y) Checks whether they are equal for x and y matrices, if they are, returns true
+-permutations(n, k) Returns the permutation value of n in k
+-erf(x) calculates the value of the erf function
+-combinations(n,k) calculation combination
