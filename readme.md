@@ -2,7 +2,7 @@
 
 Math Exec is an html document that uses js and jquery in the background and is used to perform mathematical operations.
 
-I used the Katex library to display mathematical expressions in latex form, and the Tailwind library for elements to have a neat appearance. Mathjs, which uses the Hunting Yards algorithm, does the mathematical operations.
+I used the Katex library to display mathematical expressions in latex form, and the Tailwind library for elements to have a neat appearance. Mathjs, which uses the Shunting Yard algorithm, does the mathematical operations.
 
 Before starting use:
 Open the "mathexec" folder and enter the code below
